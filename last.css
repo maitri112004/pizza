@@ -1,0 +1,10 @@
+body{
+    background-image: url(pizza.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.one{
+    font-family: cursive;
+    color: black;
+}

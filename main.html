@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Pizza</title>
+    <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon" /> <!--Logo image-->
+    <link href="second.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="one">
+        <h1><b>Pizza Order Form</b></h1>
+    </div>
+    </header>
+    <main>
+        <div class="two">
+            <fieldset> <!-- Form for personal information-->
+                
+                <legend>personal Information--</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <br><br>
+            
+            </fieldset>
+
+            <fieldset> <!--Pizza detials-->
+                <legend>Pizza Details</legend>
+                <label for="numberofpizza">Number Of Pizza</label>
+                <input type="text" id="numberofpizza" name="numberofpizza" min="1" max="10">
+                <br><br>
+                <label for="size">Size</label>
+                <select id="size" name="size">
+                    <option value="Selectone"></option>
+                    <option value="aslice">A Giant Slice</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="Large">Large</option>
+                    <br><br>
+                </select>  
+                <br><br>  
+            
+                <label for="crust">Type Of Crust:</label><br>
+                <input type="radio" id="thinCrust" name="crust" value="thin" required>
+                <label for="thinCrust">Thin Crust</label><br>
+                <input type="radio" id="crispy" name="crust" value="crispy" required>
+                <label for="crispycrust">Crispy Crust</label><br>
+                <input type="radio" id="puffy" name="crust" value="puffy" required>
+                <label for="puffycrust">Puffy Crust</label><br>
+                <input type="radio" id="thick" name="crust" value="thick" required>
+                <label for="thickcrust">Thick Crust</label><br>
+                 <br><br>
+                <label for="topping">Toppings</label>
+                <textarea name="topping" id="topping" cols="10" rows="2"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery option</legend>
+                <input type="radio" id="pickup" name="delivery" value="pickup" required>
+                <label for="pickup">Pick up</label><br>
+                <input type="radio" id="dinein" name="delivery" value="dinein" required>
+                <label for="dinein">Dine in</label><br>
+                <input type="radio" id="delivery" name="delivery" value="delivery" required>
+                <label for="delivery">Delivery</label><br>
+               
+            
+            </fieldset><br>
+        <a href="last.html"> <!--Linking to the third  page-->
+            <input type="submit" value="Place Order">
+        </a>
+            
+         
+        </form>
+  
+    </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-image: url(pizzamiddle.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.one{
+    font-size: larger;
+    font-family: cursive;
+    color:rgb(204, 20, 20);
+}
+.two{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen; 
+    margin: left;
+    width: 500px;
+    height: 500px;
+}

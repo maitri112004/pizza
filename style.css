@@ -1,0 +1,21 @@
+body{
+    background-image: url(pizzafront.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.main{
+    font-family: cursive;
+    font-size: xx-large;
+    color: red;
+    text-align: left;
+    
+  
+}
+.main2{
+    font-family: cursive;
+    font-size: x-large;
+    color:darkgreen;
+    text-align: left;
+}
+
